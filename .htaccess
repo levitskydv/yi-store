@@ -1,0 +1,28 @@
+AddDefaultCharset utf-8
+
+# Запрет выдачи листинга пустого каталога
+Options -Indexes
+
+#400  Bad Server Request (Неверный запрос)
+ErrorDocument 400 http://yistore.ru/errors/400.html
+#401  Unauthorized User ( Неавторизованный пользователь)
+ErrorDocument 401 http://yistore.ru/errors/401.html 
+#403  Forbidden (Доступ запрещен)
+ErrorDocument 403 http://yistore.ru/errors/403.html
+#404  Page Not Found (Страница не найдена)
+ErrorDocument 404 http://yistore.ru/errors/404.html
+#408  Request Timeout (Истекло время запроса)
+ErrorDocument 408 http://yistore.ru/errors/408.html 
+#500  Server Error (Внутренняя ошибка сервера)
+ErrorDocument 500 http://yistore.ru/errors/500.html
+
+DirectoryIndex menu.html
+
+RemoveHandler .html .htm
+AddType application/x-httpd-php .php .htm .html .phtml
+
+# RewriteEngine on
+# RewriteCond %{HTTP_REFERER} !^$
+# RewriteCond %{HTTP_REFERER} !^http(s)?://(www\.)?yistore.ru [NC]
+# RewriteRule \.(jpg|jpeg|png|gif|ico)$ - [NC,F,L]
+
