@@ -1,19 +1,5 @@
-User-agent: Yandex
-Disallow: /admin
-Disallow: /assets
-Disallow: /errors
-Crawl-delay: 2
-Host: http://yistore.ru
+# www.robotstxt.org/
 
-User-agent: Googlebot
-Disallow: /admin
-Disallow: /assets
-Disallow: /errors
-
+# Allow crawling of all content
 User-agent: *
-Crawl-delay: 2
-Disallow: /admin
-Disallow: /assets
-Disallow: /errors
-
-Sitemap: http://yistore.ru/sitemap.xml
+Disallow:
