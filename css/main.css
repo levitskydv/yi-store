@@ -1,19 +1,8 @@
-/*! HTML5 Boilerplate v6.1.0 | MIT License | https://html5boilerplate.com/ */
-
-/*
- * What follows is the result of much research on cross-browser styling.
- * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
- * Kroc Camen, and the H5BP dev community and team.
- */
-
-/* ==========================================================================
-   Base styles: opinionated defaults
-   ========================================================================== */
+/*! YiStore v2.0 | by Dmitri Levitski | https://github.com/majorcore */
 body {
   background-image: url("img/background.jpg");
   font-family: 'Lobster', cursive;
 }
-
 a {
     color: #38b60b;
     text-decoration: none;
@@ -24,14 +13,12 @@ a {
     -o-transition: color 0.1s ease-in, background 0.1s ease-in;
     transition: color 0.1s ease-in, background 0.1s ease-in;
 }
-
 a:hover,
 a:focus {
     color: #0a95ea;
     text-decoration: none;
     outline: 0;
 }
-
 a:before,
 a:after {
     -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
@@ -40,116 +27,91 @@ a:after {
     -o-transition: color 0.1s ease-in, background 0.1s ease-in;
     transition: color 0.1s ease-in, background 0.1s ease-in;
 }
-
 img {
     max-width: 100%;
     height: auto;
 }
-
 .container {
   max-width: 940px;
   margin: 0 auto;
 }
-
 .row {
   display: flex;
   flex-wrap: wrap;
   margin-left: -10px;
   margin-right: -10px;
 }
-
 .col-1 {
   width: 8.333333%;
 }
-
 .col-2 {
   width: 16.666667%;
 }
-
 .col-3 {
   width: 25%;
 }
-
 .col-4 {
   width: 33.333333%;
 }
-
 .col-5 {
   width: 41.666667%;
 }
-
 .col-6 {
   width: 50%;
 }
-
 .col-7 {
   width: 58.333333%;
 }
-
 .col-8 {
   width: 66.666667%;
 }
-
 .col-9 {
   width: 75%;
 }
-
 .col-10 {
   width: 83.333333%;
 }
-
 .col-11 {
   width: 91.666667%;
 }
-
 .col-12 {
   width: 100%;
 }
-
 .col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12  {
   display: flex;
   padding-left: 10px;
   padding-right: 10px;
   box-sizing: border-box;
 }
-
 header {
    padding-top: 1px;
 }
-
 .justify-around {
    justify-content: space-around;
 }
-
 .justify-center {
   justify-content: center; 
 }
-
 .align-center {
   align-items: center;
 }
-
 .header-logo-col {
   margin-bottom: 50px;  
 }
-
 .main-item {
   display: flex;
   flex-direction: column;
   padding-top: 15px;
   padding-bottom: 5px;
 }
-
 .main-item-container {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-
 .main-item-img {
   margin-bottom: 36px;
 }
-
 .main-item-heading-1 {
   font-size: 33px;
   color: #3d3d3d;
@@ -157,7 +119,6 @@ header {
   text-align: center;
   text-justify: auto;
 }
-
 .main-item-heading-2 {
   font-size: 30px;
   color: #3d3d3d;
@@ -165,7 +126,6 @@ header {
   text-align: center;
   text-justify: auto;
 }
-
 .copyright {
   font-family: 'Open Sans', sans-serif;
   color: #3d3d3d;

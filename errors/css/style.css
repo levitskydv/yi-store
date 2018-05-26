@@ -1,0 +1,29 @@
+/*! YiStore v2.0 | by Dmitri Levitski | https://github.com/majorcore */
+* {
+	padding: 0px;
+	margin: 0px;
+}
+body {
+	background-image: url("/errors/images/background.jpg");
+	-webkit-background-size: cover; /* Для хрома */
+	-moz-background-size: cover;  /* Для лисы*/
+	-o-background-size: cover;  /* Для оперы*/
+	-ms-background-size: cover;  /* Для ИЭ*/
+	background-size: cover;  /* Для закрипления*/
+	font-family: 'Lobster', cursive;
+}
+.fig {
+	padding-top: 30px;
+}
+.logo {
+	padding-top: 20px;
+	padding-left: 30px;
+}
+h2 {
+	padding-top: 50px;
+	color: #000;
+}
+a {
+	text-decoration: none;
+	color: #000;
+}
