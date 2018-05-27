@@ -16,7 +16,7 @@ ErrorDocument 408 http://yistore.ru/errors/408.html
 #500  Server Error (Внутренняя ошибка сервера)
 ErrorDocument 500 http://yistore.ru/errors/500.html
 
-DirectoryIndex menu.html
+DirectoryIndex index.html
 
 RemoveHandler .html .htm
 AddType application/x-httpd-php .php .htm .html .phtml
