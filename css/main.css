@@ -92,7 +92,7 @@ form {
   border: 1px solid #f0f0f0;
   width: 344px;
   padding: 18px 14px;
-  font-family: system-ui;
+  font-family: 'Open Sans', sans-serif;
 }
 
 input {
